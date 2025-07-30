@@ -1,175 +1,151 @@
-# 🕌 MuslimHub - Plateforme Révolutionnaire pour la Communauté Musulmane
+# MuslimHub 🕌
 
-![MuslimHub Logo](https://img.shields.io/badge/MuslimHub-Revolutionary-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-20.x-green?style=for-the-badge&logo=node.js)
-![MongoDB](https://img.shields.io/badge/MongoDB-6.x-47A248?style=for-the-badge&logo=mongodb)
+**A Modern Digital Platform for the Muslim Community**
 
-## 🌟 Vision Révolutionnaire
+[![Build Status](https://img.shields.io/badge/build-beta-yellow?style=for-the-badge)](https://github.com/yani2298/MuslimHub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](http://makeapullrequest.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-100%25-blue?style=for-the-badge)](https://www.typescriptlang.org/)
 
-MuslimHub n'est pas qu'une simple application - c'est une **révolution numérique** qui transforme l'expérience musulmane dans le monde moderne. Notre plateforme unit technologie de pointe et spiritualité islamique pour créer un écosystème complet au service de la Ummah mondiale.
+> 🚧 **This project is currently in beta and under active development**. Features are being continuously added and improved. **Contributions are highly welcome!**
 
-## ✨ Fonctionnalités Révolutionnaires
+## 🎯 About MuslimHub
 
-### 🕌 **Spiritualité Intelligente**
-- **Calculs de prières ultra-précis** avec géolocalisation et corrections astronomiques
-- **Lecteur Coran** avec recherche sémantique IA et 50+ traductions
-- **Calcul Zakat intelligent** avec toutes les méthodologies et cryptomonnaies
-- **Qibla Finder AR** avec réalité augmentée et boussole 3D
-- **Calendrier islamique** avec événements personnalisés et rappels
+MuslimHub is a comprehensive digital platform that combines Islamic tradition with modern technology. Our goal is to provide essential tools for daily religious practice while fostering community connection through a user-friendly web application.
 
-### 🤖 **Intelligence Artificielle Islamic**
-- **Assistant IA Islamique** pour répondre aux questions religieuses
-- **Recherche sémantique** dans le Coran et collections de Hadiths
-- **Recommendations personnalisées** de contenu islamique
-- **Analyse de sentiment** pour le développement spirituel
+## ✨ Current Features (Beta Version)
 
-### 🌍 **Communauté Globale**
-- **Forums modernes** avec discussions thématiques
-- **Groupes locaux** géolocalisés par mosquée/région
-- **Événements communautaires** avec système RSVP
-- **Messagerie halal** avec modération automatique
+### 🕌 **Core Features**
+- **🕐 Prayer Times** - Location-based accurate calculations
+- **📖 Quran Reader** - Clean interface with multiple translations
+- **💰 Zakat Calculator** - Comprehensive obligation calculator
+- **🧭 Qibla Finder** - Direction detection capabilities
+- **👥 User Authentication** - Secure JWT-based system
+- **📱 PWA Ready** - Progressive web app foundation
 
-### 📚 **Apprentissage Interactif**
-- **Cours d'arabe** avec reconnaissance vocale
-- **Mémorisation Coran** avec répétition espacée
-- **Islamic Studies** interactifs et gamifiés
-- **Tests et certifications** avec badges d'accomplissement
+### 🚧 **In Development**
+- **🤖 Islamic AI Assistant** - Quran/Sunnah-based responses *(planned)*
+- **🔍 Semantic Search** - AI-powered Quran search *(in progress)*  
+- **💎 Smart Zakat** - Advanced calculation features *(in progress)*
+- **🌐 Community Features** - Forums and discussion boards *(planned)*
+- **📚 Learning Modules** - Educational content system *(planned)*
 
-### 📱 **Progressive Web App (PWA)**
-- **Mode hors ligne complet** avec synchronisation intelligente
-- **Notifications push** pour prières et événements
-- **Installation native** sur tous les appareils
-- **Synchronisation multi-appareils** temps réel
+### 📱 **Progressive Web App**
+- **Offline Support** - Basic offline functionality *(in development)*
+- **Mobile Responsive** - Works on all devices
+- **Fast Loading** - Optimized performance
+- **Installation** - Can be installed as app *(beta)*
 
-## 🏗️ Architecture Révolutionnaire
+## 📁 Project Structure
 
 ```
 MuslimHub/
-├── 🎨 frontend/          # React 18 + TypeScript + PWA
+├── frontend/             # React 18 + TypeScript
 │   ├── src/
-│   │   ├── components/   # Composants UI modernes
-│   │   ├── features/     # Fonctionnalités métier
-│   │   ├── hooks/        # Hooks personnalisés
-│   │   ├── services/     # API et services
-│   │   └── utils/        # Utilitaires et helpers
-├── ⚡ backend/           # Node.js + Express + TypeScript
+│   │   ├── components/   # Reusable UI components
+│   │   ├── pages/        # Main application pages
+│   │   ├── hooks/        # Custom React hooks
+│   │   ├── services/     # API services
+│   │   └── utils/        # Utility functions
+├── backend/              # Node.js + Express + TypeScript
 │   ├── src/
-│   │   ├── controllers/  # Logique métier
-│   │   ├── models/       # Modèles MongoDB
-│   │   ├── routes/       # Routes API REST/GraphQL
-│   │   ├── middleware/   # Middleware personnalisés
-│   │   ├── services/     # Services métier
-│   │   └── utils/        # Utilitaires backend
-├── 📚 docs/             # Documentation complète
-└── 🔧 shared/           # Types et utils partagés
+│   │   ├── routes/       # API route handlers
+│   │   ├── models/       # MongoDB models
+│   │   ├── middleware/   # Express middleware
+│   │   ├── services/     # Business logic services
+│   │   └── utils/        # Backend utilities
+├── docs/                 # Project documentation
+└── shared/               # Shared types and utilities
 ```
 
-## 🚀 Technologies de Pointe
+## 🛠️ Tech Stack
 
-### Frontend Revolutionary Stack
-- **React 18** avec Concurrent Features
-- **TypeScript** pour la sécurité de type
-- **Tailwind CSS** + **Headless UI** design moderne
-- **React Query** pour la gestion d'état serveur
-- **PWA** avec Workbox pour le mode hors ligne
-- **React Hook Form** + **Zod** validation
+### Frontend
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **React Query v5** for state management
+- **React Router** for navigation
+- **PWA** capabilities with service workers
 
-### Backend Performance Stack
-- **Node.js 20** avec performances optimisées
-- **Express.js** avec middleware modernes
-- **MongoDB 6** avec aggregation pipelines
-- **JWT** authentification sécurisée
-- **Rate Limiting** et protection DDOS
-- **Helmet.js** sécurité HTTP headers
+### Backend
+- **Node.js 20** with Express.js
+- **MongoDB 6** as database
+- **JWT** for authentication
+- **TypeScript** throughout
+- **Express Rate Limit** for API protection
 
-### DevOps & Deployment
-- **Docker** containerisation
-- **GitHub Actions** CI/CD pipelines
-- **AWS/Vercel** déploiement cloud
-- **MongoDB Atlas** base de données cloud
-- **Cloudflare** CDN et sécurité
+### Tools & Deployment
+- **Docker** for containerization
+- **GitHub Actions** for CI/CD *(planned)*
+- **Vercel/AWS** deployment ready
+- **ESLint + Prettier** for code quality
 
-## ⚡ Installation Ultra-Rapide
+## 🚀 Quick Start
 
+### Prerequisites
+- Node.js 18 or higher
+- MongoDB 6 or higher
+- npm or yarn
+
+### Installation
 ```bash
-# Clone du dépôt révolutionnaire
-git clone https://github.com/muslimhub/muslimhub.git
-cd muslimhub
+# Clone the repository
+git clone https://github.com/yani2298/MuslimHub.git
+cd MuslimHub
 
-# Installation des dépendances (toutes en une fois)
+# Install all dependencies
 npm run install-deps
 
-# Démarrage du mode développement
-npm run dev
+# Setup environment variables
+cp backend/.env.example backend/.env
+# Edit the .env file with your configuration
 
-# 🚀 Votre révolution numérique démarre sur http://localhost:3000
+# Start development servers
+npm run dev
 ```
 
-## 🌐 Variables d'Environnement
+The application will be available at `http://localhost:3000`
+
+## 🔧 Environment Setup
+
+Create a `.env` file in the backend directory:
 
 ```env
 # Backend Configuration
 PORT=5000
 NODE_ENV=development
 MONGODB_URI=mongodb://localhost:27017/muslimhub
-JWT_SECRET=your_revolutionary_secret_key
+JWT_SECRET=your_secret_key
 JWT_EXPIRE=30d
 
-# API Keys pour fonctionnalités avancées
+# Optional API Keys (for enhanced features)
 PRAYER_TIMES_API_KEY=your_prayer_api_key
 QURAN_API_KEY=your_quran_api_key
-GEOCODING_API_KEY=your_geocoding_key
-
-# Email & Notifications
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=your_email@gmail.com
-SMTP_PASS=your_app_password
 ```
 
-## 📖 API Documentation
+## 🔌 API Endpoints
 
-Notre API RESTful révolutionnaire suit les meilleures pratiques:
+### Authentication
+- `POST /api/auth/register` - User registration
+- `POST /api/auth/login` - User login
+- `POST /api/auth/refresh` - Token refresh
 
-- **Authentication**: JWT avec refresh tokens
-- **Rate Limiting**: Protection intelligente contre les abus
-- **Validation**: Schemas Joi/Zod pour toutes les entrées
-- **Documentation**: Swagger/OpenAPI 3.0 complète
-- **Versioning**: API versioning pour la compatibilité
+### Prayer Times
+- `GET /api/prayers/times` - Get prayer times by location
+- `GET /api/prayers/qibla` - Get Qibla direction
 
-### Endpoints Principaux
+### Quran
+- `GET /api/quran/chapters` - List all chapters
+- `GET /api/quran/chapter/:number` - Get specific chapter
+- `GET /api/quran/verse/:chapter/:verse` - Get specific verse
+- `GET /api/quran/search` - Search in Quran text
 
-```
-🔐 Authentication
-POST   /api/auth/register
-POST   /api/auth/login
-POST   /api/auth/refresh
-DELETE /api/auth/logout
+### Zakat
+- `POST /api/zakat/calculate` - Calculate Zakat amount
 
-🕌 Prayer Times
-GET    /api/prayers/times
-GET    /api/prayers/qibla
-POST   /api/prayers/settings
-
-📖 Quran
-GET    /api/quran/chapters
-GET    /api/quran/verses/:id
-POST   /api/quran/search
-GET    /api/quran/recitations
-
-💰 Zakat
-POST   /api/zakat/calculate
-GET    /api/zakat/rates
-POST   /api/zakat/save-calculation
-
-👥 Community
-GET    /api/community/forums
-POST   /api/community/posts
-GET    /api/community/events
-POST   /api/community/groups
-```
+### Community *(planned)*
+- `GET /api/community/forums` - List community forums
+- `POST /api/community/posts` - Create new post
 
 ## 🤝 Contribution à la Révolution
 
@@ -189,31 +165,37 @@ Rejoignez notre mouvement révolutionnaire ! Nous cherchons des développeurs pa
 - 🔍 **Type Safety**: TypeScript strict mode activé
 - 🌍 **Internationalisation**: Support i18n pour 10+ langues
 
-## 🏆 Roadmap Révolutionnaire
+## 📊 Development Status
 
-### Phase 1: Foundation (Q1 2024) ✅
-- [x] Architecture projet complète
-- [x] Authentification sécurisée
-- [x] Calculs prières de base
-- [x] Lecteur Coran simple
+### Completed ✅
+- [x] Basic project structure and setup
+- [x] User authentication system
+- [x] Prayer times calculation
+- [x] Quran reader interface
+- [x] Zakat calculator
+- [x] Basic PWA setup
 
-### Phase 2: Intelligence (Q2 2024) 🚧
-- [ ] IA Assistant islamique
-- [ ] Recherche sémantique avancée
-- [ ] Calcul Zakat intelligent
-- [ ] Mode hors ligne PWA
+### In Progress 🚧  
+- [ ] UI/UX improvements
+- [ ] Enhanced mobile responsiveness
+- [ ] Performance optimizations
+- [ ] Additional Islamic features
+- [ ] Community features foundation
 
-### Phase 3: Communauté (Q3 2024)
-- [ ] Forums et discussions
-- [ ] Groupes géolocalisés
-- [ ] Événements communautaires
-- [ ] Messagerie intégrée
+### Planned 📋
+- [ ] AI Assistant integration
+- [ ] Advanced search capabilities
+- [ ] Offline functionality
+- [ ] Multi-language support
+- [ ] Advanced community features
+- [ ] Mobile applications
 
-### Phase 4: Innovation (Q4 2024)
-- [ ] Réalité augmentée Qibla
-- [ ] Blockchain pour donations
-- [ ] Machine Learning personnalisation
-- [ ] API publique pour développeurs
+## 🎯 Roadmap
+
+- **Q1 2025** - Beta release with core features
+- **Q2 2025** - Enhanced features and AI integration  
+- **Q3 2025** - Community features and mobile apps
+- **Q4 2025** - Advanced features and scaling
 
 ## 📊 Métriques de Performance
 
@@ -240,17 +222,35 @@ La sécurité de notre Ummah est notre priorité absolue:
 - 📱 **Twitter**: [@MuslimHubApp](https://twitter.com/MuslimHubApp)
 - 🌐 **Website**: [https://muslimhub.com](https://muslimhub.com)
 
-## 📄 Licence
+## 📄 License
 
-Ce projet révolutionnaire est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+<div align="center">
 
 **"وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا"**
-*"Et attachez-vous tous ensemble au câble d'Allah et ne vous divisez pas"* - Quran 3:103
 
-Fait avec ❤️ pour la Ummah mondiale par l'équipe MuslimHub
+*"And hold firmly to the rope of Allah all together and do not become divided"* - Quran 3:103
+
+**Made with ❤️ for the Ummah**
 
 ---
 
-⭐ **Si ce projet vous inspire, donnez-nous une étoile sur GitHub !** ⭐
+### ⚠️ **Beta Release Notice**
+
+This project is currently in **beta development**. Features are being actively developed and improved. 
+
+**We encourage contributions, feedback, and collaboration from the community!**
+
+---
+
+<p>
+  <a href="https://github.com/yani2298/MuslimHub/stargazers">⭐ Star this project</a> •
+  <a href="https://github.com/yani2298/MuslimHub/issues">🐛 Report a bug</a> •
+  <a href="https://github.com/yani2298/MuslimHub/discussions">💬 Join discussions</a> •
+  <a href="https://github.com/yani2298/MuslimHub/fork">🔀 Fork & contribute</a>
+</p>
+
+</div>
