@@ -1,7 +1,7 @@
 {
   "name": "muslimhub-backend",
   "version": "1.0.0",
-  "description": "Backend API pour MuslimHub - Plateforme révolutionnaire musulmane",
+  "description": "Backend API for MuslimHub - Modern Islamic Digital Platform. RESTful API with Prayer Times, Quran, Zakat Calculator, Authentication & Community Features. Built with Node.js + TypeScript + MongoDB.",
   "main": "dist/index.js",
   "directories": {
     "test": "tests"
