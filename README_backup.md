@@ -1058,101 +1058,108 @@ timeline
 </tr>
 </table>
 
-## 📄 **License & Legal**
+<!-- Remove all the old French content below this line -->
 
-<div align="center">
+1. **Fork** le projet
+2. **Create** une branche feature (`git checkout -b feature/revolutionary-feature`)
+3. **Commit** vos changements (`git commit -m 'Add revolutionary feature'`)
+4. **Push** vers la branche (`git push origin feature/revolutionary-feature`)
+5. **Open** une Pull Request
 
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensource)
-![Compliance](https://img.shields.io/badge/GDPR-Compliant-blue?style=for-the-badge&logo=gdpr)
-![Open Source](https://img.shields.io/badge/Open_Source-Forever-orange?style=for-the-badge&logo=heart)
+### Guidelines de Contribution
 
-**Free and Open Source - Built with transparency for the Muslim community**
+- �� **Code Style**: Prettier + ESLint configuration
+- 🧪 **Tests**: Jest pour backend, React Testing Library pour frontend
+- 📚 **Documentation**: JSDoc pour toutes les fonctions publiques
+- 🔍 **Type Safety**: TypeScript strict mode activé
+- 🌍 **Internationalisation**: Support i18n pour 10+ langues
 
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for full details.
+## 📊 Development Status
 
-</div>
+### Completed ✅
+- [x] Basic project structure and setup
+- [x] User authentication system
+- [x] Prayer times calculation
+- [x] Quran reader interface
+- [x] Zakat calculator
+- [x] Basic PWA setup
+
+### In Progress 🚧  
+- [ ] UI/UX improvements
+- [ ] Enhanced mobile responsiveness
+- [ ] Performance optimizations
+- [ ] Additional Islamic features
+- [ ] Community features foundation
+
+### Planned 📋
+- [ ] AI Assistant integration
+- [ ] Advanced search capabilities
+- [ ] Offline functionality
+- [ ] Multi-language support
+- [ ] Advanced community features
+- [ ] Mobile applications
+
+## 🎯 Roadmap
+
+- **Q1 2025** - Beta release with core features
+- **Q2 2025** - Enhanced features and AI integration  
+- **Q3 2025** - Community features and mobile apps
+- **Q4 2025** - Advanced features and scaling
+
+## 📊 Métriques de Performance
+
+- ⚡ **Time to Interactive**: < 2 secondes
+- 📱 **Lighthouse Score**: 95+ sur tous les critères
+- 🌐 **Global CDN**: < 100ms latence mondiale
+- 🔒 **Security Score**: A+ SSL Labs
+- 📈 **Uptime**: 99.9% SLA garanti
+
+## 🛡️ Sécurité & Vie Privée
+
+La sécurité de notre Ummah est notre priorité absolue:
+
+- 🔐 **Chiffrement E2E** pour toutes les communications privées
+- 🛡️ **GDPR Compliant** avec contrôle total des données
+- 🔍 **Audit de sécurité** réguliers par des experts
+- 🚫 **Zero Tracking** politique de vie privée stricte
+- 🔒 **2FA** authentification à deux facteurs disponible
+
+## �� Contact & Support
+
+- 📧 **Email**: contact@muslimhub.com
+- 💬 **Discord**: [Rejoindre notre communauté](https://discord.gg/muslimhub)
+- 📱 **Twitter**: [@MuslimHubApp](https://twitter.com/MuslimHubApp)
+- 🌐 **Website**: [https://muslimhub.com](https://muslimhub.com)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
-
-## 🕌 **Islamic Values in Technology**
-
-### 🌟 **Our Guiding Principles**
 
 **"وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا"**
 
-*"And hold firmly to the rope of Allah all together and do not become divided"*  
-**- Quran 3:103**
+*"And hold firmly to the rope of Allah all together and do not become divided"* - Quran 3:103
+
+**Made with ❤️ for the Ummah**
 
 ---
 
-**🤲 Built with love and dedication for the global Muslim Ummah**  
-**🌍 Serving Muslims worldwide with authentic Islamic technology**  
-**🤝 United in faith, innovation, and community**
+### ⚠️ **Beta Release Notice**
+
+This project is currently in **beta development**. Features are being actively developed and improved. 
+
+**We encourage contributions, feedback, and collaboration from the community!**
 
 ---
 
-### 🚀 **Ready to Get Started?**
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-[![Star](https://img.shields.io/badge/⭐-Star_Project-yellow?style=for-the-badge)](https://github.com/yani2298/MuslimHub/stargazers)
-
-**Show Support**
-Star our project and help us reach more Muslims worldwide
-
-</td>
-<td width="25%" align="center">
-
-[![Contribute](https://img.shields.io/badge/🤝-Contribute-green?style=for-the-badge)](CONTRIBUTING.md)
-
-**Join Development**
-Help build the future of Islamic technology
-
-</td>
-<td width="25%" align="center">
-
-[![Issues](https://img.shields.io/badge/🐛-Report_Issue-red?style=for-the-badge)](https://github.com/yani2298/MuslimHub/issues)
-
-**Report Bugs**
-Help us improve by reporting issues
-
-</td>
-<td width="25%" align="center">
-
-[![Discuss](https://img.shields.io/badge/💬-Join_Discussion-blue?style=for-the-badge)](https://github.com/yani2298/MuslimHub/discussions)
-
-**Share Ideas**
-Participate in community discussions
-
-</td>
-</tr>
-</table>
-
----
-
-### 📊 **Project Stats**
-
-![GitHub Stars](https://img.shields.io/github/stars/yani2298/MuslimHub?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yani2298/MuslimHub?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yani2298/MuslimHub)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yani2298/MuslimHub)
-![Last Commit](https://img.shields.io/github/last-commit/yani2298/MuslimHub)
-
----
-
-### ⚠️ **Beta Development Notice**
-
-This project is currently in **active beta development**. We're continuously adding features and improvements.
-
-**Your feedback, contributions, and support help us build better tools for the Muslim community worldwide.**
-
----
-
-**🌟 May Allah (SWT) bless this project and benefit the entire Ummah**  
-**جزاكم الله خيراً - May Allah reward you all with good**
+<p>
+  <a href="https://github.com/yani2298/MuslimHub/stargazers">⭐ Star this project</a> •
+  <a href="https://github.com/yani2298/MuslimHub/issues">🐛 Report a bug</a> •
+  <a href="https://github.com/yani2298/MuslimHub/discussions">💬 Join discussions</a> •
+  <a href="https://github.com/yani2298/MuslimHub/fork">🔀 Fork & contribute</a>
+</p>
 
 </div>
