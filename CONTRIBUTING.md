@@ -1,89 +1,76 @@
-# Contributing to MuslimHub 🤝
+# Contributing Guidelines
 
-Thank you for your interest in contributing to MuslimHub! We welcome contributions from developers, designers, and community members who want to help build a better digital platform for the Muslim community.
+Thank you for your interest in contributing! 🎉
 
-## 🚧 Project Status
+## Code of Conduct
 
-MuslimHub is currently in **beta development**. We're actively building core features and would love your help!
+By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## 🌟 Ways to Contribute
+## Getting Started
 
-### 🐛 Bug Reports
-- Report issues you find while using the application
-- Include steps to reproduce the problem
-- Provide screenshots if applicable
+### Prerequisites
+- Node.js ≥ 18.0.0
+- npm ≥ 9.0.0
+- Git
 
-### ✨ Feature Requests  
-- Suggest new Islamic features or tools
-- Propose UI/UX improvements
-- Share ideas for community features
+### Setup
+```bash
+# 1. Fork the repository on GitHub
+# 2. Clone your fork
+git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
+cd REPO_NAME
 
-### 💻 Code Contributions
-- Fix bugs and improve existing features
-- Implement new features from our roadmap
-- Improve documentation and code comments
-- Add tests for better code coverage
+# 3. Install dependencies
+npm install
 
-### 🌍 Translations
-- Help translate the app to other languages
-- Review and improve existing translations
-- Add cultural adaptations for different regions
+# 4. Copy environment variables
+cp .env.example .env.local
 
-## 🚀 Getting Started
+# 5. Start development server
+npm run dev
+```
 
-1. **Fork** the repository
-2. **Clone** your fork locally
-3. **Create** a new branch for your feature/fix
-4. **Make** your changes
-5. **Test** your changes thoroughly
-6. **Commit** with a clear message
-7. **Push** to your fork
-8. **Create** a Pull Request
+## Development Workflow
 
-## 💡 Development Guidelines
+### Branch Naming
+```
+feature/short-description    → New features
+fix/short-description        → Bug fixes
+docs/short-description       → Documentation
+chore/short-description      → Maintenance tasks
+refactor/short-description   → Code refactoring
+```
 
-### Code Style
-- Follow existing code patterns and structure
-- Use TypeScript throughout the project
-- Write clear, descriptive variable and function names
-- Add comments for complex logic
+### Commit Messages (Conventional Commits)
+```
+feat(scope): add new prayer time calculation
+fix(ui): resolve mobile navigation overflow
+docs: update API usage examples
+chore(deps): upgrade React to 18.3.0
+```
 
-### Commit Messages
-Use clear, descriptive commit messages:
-- `feat: add prayer time notifications`
-- `fix: resolve Qibla direction calculation`
-- `docs: update API documentation`
-- `style: improve mobile responsiveness`
+### Running Tests
+```bash
+npm test              # Unit tests
+npm run test:e2e      # End-to-end tests
+npm run test:coverage # Coverage report
+```
 
-### Pull Request Process
-1. Ensure your code builds without errors
+## Pull Request Process
+
+1. Ensure tests pass locally: `npm test`
 2. Update documentation if needed
-3. Add or update tests for new features
-4. Provide a clear description of your changes
-5. Link to any related issues
+3. Fill out the PR template completely
+4. Request review from a maintainer
+5. Address review comments promptly
 
-## 🕌 Islamic Guidelines
+## Code Style
 
-As we're building for the Muslim community, please keep in mind:
-- Ensure all content is appropriate and respectful
-- Verify Islamic accuracy for religious features
-- Consider cultural sensitivity in design and features
-- Follow Islamic principles in community features
+- Follow the existing code patterns
+- ESLint config: `npm run lint`
+- Prettier format: `npm run format`
+- TypeScript strict mode must pass
 
-## 📞 Questions?
+## Questions?
 
-- **GitHub Issues** - For bug reports and feature requests
-- **GitHub Discussions** - For general questions and ideas
-- **Email** - For private or sensitive matters
-
-## 🙏 Code of Conduct
-
-We expect all contributors to:
-- Be respectful and inclusive
-- Focus on constructive feedback
-- Help create a welcoming environment
-- Follow Islamic principles of good conduct
-
----
-
-**جزاك الله خيراً** (May Allah reward you with good) for contributing to the Muslim community! 🌟
+Open a [Discussion](../../discussions) for questions or feature proposals.
